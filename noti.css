@@ -1,97 +1,103 @@
-body {
+section {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  cursor: default;
-  box-sizing: border-box;
 }
 
-input {
-  outline: none;
-  background-color: transparent;
-  text-decoration: none;
-  list-style: none;
-  border: none;
-  font-size: 20px;
-  text-align: center;
-}
-button {
-  outline: none;
-  background-color: transparent;
-  text-decoration: none;
-  list-style: none;
-  border: none;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-#navbar {
-  position: fixed;
-  top: 0px;
-  width: 100%;
-  background-color: white;
-  z-index: 2;
-  border-bottom: 6px solid lightgray;
-}
-
-/* navbar */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 20px;
-  align-items: center;
-  font-size: 20px;
-  font-weight: 500;
-}
-.navbar__icon i {
-  padding: 0 3px;
-}
 /* title */
-.title {
+.title__small {
+  padding-top: 160px;
+  font-size: 26px;
+  font-weight: bold;
+}
+/* check list */
+#checklist {
   display: flex;
   justify-content: space-between;
-  padding: 0 10px;
   align-items: center;
 }
-.title__logo {
-  width: 150px;
-  height: 80px;
+#checklist,
+.title__small {
+  margin-left: 20px;
+  margin-right: 20px;
 }
-
-.title__icon i {
-  font-size: 25px;
-  padding: 10px;
-  margin-right: 10px;
-  background-color: lightgray;
+.check__pic {
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
 }
-
-/* bottom */
-.bottom__bar {
-  padding: 20px 10px;
+.checklist__all {
   display: flex;
-  justify-content: space-around;
-  bottom: 0;
-  position: fixed;
-  width: 100%;
-  padding-bottom: 30px;
-  background-color: white;
+  padding: 30px 0;
+  align-items: center;
 }
-.bottom__icon i {
-  font-size: 25px;
-  opacity: 0.8;
+
+.checklist__left {
+  padding-left: 15px;
+  font-size: 18px;
 }
-.bottom {
+.checklist__left-title {
+  font-weight: bold;
+}
+.left__time {
+  opacity: 0.6;
+  font-size: 14px;
+}
+.check__icon {
   position: absolute;
-  position: fixed;
-  display: block;
-  left: 30%;
-  width: 40%;
-  height: 6px;
+  padding: 6px;
+  background-color: #2c73da;
+  border-radius: 50%;
+  margin-left: 60px;
+  margin-top: 40px;
+  color: white;
+}
+.checklist__right i {
+  font-size: 25px;
+}
+/* may know */
+
+#mayknow {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.mayknow__title {
+  font-size: 26px;
+  font-weight: bold;
+}
+.title__hide {
+  color: #2c73da;
+  font-size: 20px;
+}
+.left__time {
+  padding: 5px 0;
+}
+.people__list-btn {
+  padding: 10px 0;
+}
+.ppl__btn {
+  font-size: 20px;
+  padding: 10px 30px;
+  color: #2c73da;
+  background-color: #e7f3ff;
+  border-radius: 8px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.ppl__btn.remove {
+  background-color: lightgray;
+  color: black;
+  font-weight: bold;
+}
+/* bottom */
+.bottom__icon.four {
+  color: #2c73da;
+}
+.bottom__topbar.four {
+  width: 50px;
+  height: 5px;
+  background-color: #2c73da;
+  position: absolute;
+  left: 66%;
+  margin-top: -10px;
   border-radius: 20px;
-  background-color: black;
-  bottom: 0;
-  margin-bottom: 8px;
 }
