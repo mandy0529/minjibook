@@ -1,0 +1,179 @@
+.story__background {
+  width: 130px;
+  height: 180px;
+}
+.story__pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 5px solid #1a78ee;
+}
+.room__pic,
+.post__pic,
+.other__pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+/* story */
+#story {
+  display: flex;
+  padding-top: 130px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  border-bottom: 10px solid lightgray;
+}
+.story__pid {
+  padding: 0 5px;
+}
+.story__background {
+  border-radius: 20px;
+}
+.href {
+  position: relative;
+}
+.story__description {
+  position: absolute;
+  text-align: center;
+  margin-top: -90px;
+  margin-left: 15px;
+  font-size: 18px;
+  color: white;
+}
+.story__description i {
+  padding: 5px 7px;
+  background-color: #1a78ee;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+.story__pic {
+  margin-left: -50px;
+  margin-top: 10px;
+}
+/* room */
+.room__list {
+  display: flex;
+  padding: 15px 20px;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 10px solid lightgray;
+}
+.room__pic {
+  margin-left: 20px;
+}
+.room__list-create {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #1a78ee;
+  padding: 5px 13px;
+  border: 3px solid #e5f1fe;
+  border-radius: 30px;
+}
+.room__list-create i {
+  color: purple;
+  padding-right: 8px;
+}
+
+.room__dot {
+  position: absolute;
+  padding: 6px;
+  background-color: #5cc438;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+/* post */
+#post {
+  padding: 0 20px;
+  padding-bottom: 10px;
+  border-bottom: 10px solid lightgray;
+}
+.room__profile {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+.room__profile h2 {
+  font-weight: 800;
+  padding-left: 10px;
+}
+.post__icon {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 7px;
+  border-top: 1px solid lightgray;
+}
+.post__icon-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 50px;
+  width: 36%;
+  border-right: 1px solid lightgray;
+}
+.post__icon-list:nth-child(3) {
+  border: none;
+}
+/* other post profile */
+#other__profile,
+#other__post {
+  padding: 20px;
+}
+.others__profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.others__profile-title {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+.others__profile-title span {
+  padding: 0 5px;
+}
+.others__profile-time {
+  opacity: 0.7;
+  font-weight: 400;
+  padding-top: 5px;
+}
+/* other post profile */
+#other__post {
+  margin: 0 20px;
+  padding: 20px 10px;
+  border: 2px solid lightgray;
+}
+.otherspid__pic {
+  width: 430px;
+  height: 800px;
+  text-align: center;
+}
+#other__post p {
+  padding: 10px;
+}
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: white;
+}
+#story {
+  margin-top: 40px;
+}
+/* bottom */
+.bottom__icon.one {
+  color: #2c73da;
+}
+.bottom__topbar.one {
+  width: 50px;
+  height: 5px;
+  background-color: #2c73da;
+  position: absolute;
+  left: 7.5%;
+  margin-top: -10px;
+  border-radius: 20px;
+}
